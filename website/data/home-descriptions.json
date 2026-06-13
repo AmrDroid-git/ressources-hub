@@ -1,0 +1,53 @@
+{
+  "defaultLanguage": "fr",
+  "languages": {
+    "ar": {
+      "label": "العربية",
+      "htmlLang": "ar",
+      "direction": "rtl",
+      "eyebrow": "مشروع موارد تعليمية",
+      "title": "بوابة مركزية واحدة لجميع مواقع الموارد التعليمية التي ننشئها.",
+      "intro": "الفكرة بسيطة: كلما أُنشئ موقع جديد لجمع الموارد التعليمية، نضيفه هنا حتى يجد الزائر كل المنصات في مكان واحد دون تشتّت بين الروابط.",
+      "heading": "فكرة المشروع الكبير",
+      "paragraphs": [
+        "هذا الموقع ليس مجرد صفحة تجمع بعض الروابط، بل هو بوابة مركزية تهدف إلى تنظيم مختلف منصات الموارد التعليمية التي تم إنشاؤها، أو التي سيتم إنشاؤها مستقبلاً. الغاية منه هي توجيه كل طالب بسرعة إلى المنصة المناسبة له، سواء كانت خاصة بتلاميذ البكالوريا، أو بطلبة التحضيري الكلاسيكي، أو بأي مستوى آخر قد تظهر الحاجة إليه لاحقًا.",
+        "مع كل مشروع جديد، سيتم إضافة اسم الموقع، وصفه، رابطه الرسمي، رابط مستودع GitHub الخاص به، واسم صاحبه داخل ملف JSON بسيط ومنظم. بهذه الطريقة يبقى العمل واضحًا، سهل الصيانة، وقابلًا للتطوير دون الحاجة إلى تغيير بنية الموقع بالكامل.",
+        "الهدف الحقيقي من هذا المشروع هو جعل الوصول إلى الموارد التعليمية أسهل، أوضح، وأكثر قابلية للمشاركة. بدل إرسال روابط كثيرة ومتفرقة، يمكن مشاركة هذا الموقع المركزي فقط، ومن خلاله يختار الزائر المنصة التي تناسب احتياجه. لذلك، فالمشروع لا يقتصر على جمع الروابط، بل يسعى إلى تنظيم الطريق نحو المعرفة وتوفير الوقت على كل من يبحث عن موارد مفيدة.",
+        "يمكن لهذا المركز أن يكبر تدريجيًا مع مرور الوقت. فإذا ظهرت الحاجة إلى منصة جديدة تخص مستوى دراسيًا آخر، أو شعبة مختلفة، أو نوعًا آخر من الموارد، يمكن إضافتها بسهولة هنا. الأهم هو أن تبقى الواجهة بسيطة ونظيفة، وأن يكون الوصول مباشرًا، وأن تظل الرسالة واضحة: مساعدة أكبر عدد ممكن من الناس على الوصول إلى الموارد المناسبة."
+      ],
+      "prayer": "اللهم بارك هذا العمل، وانفع به الطلبة والزوار، ويسّر لكل إنسان طريق العلم، واجعل هذه الموارد سببًا في الخير والنفع والتوفيق والنجاح للجميع."
+    },
+    "fr": {
+      "label": "Français",
+      "htmlLang": "fr",
+      "direction": "ltr",
+      "eyebrow": "Projet de ressources éducatives",
+      "title": "Une porte d’entrée unique vers tous nos sites de ressources éducatives.",
+      "intro": "L’idée est simple : chaque fois qu’un nouveau site de ressources est créé, il sera ajouté ici afin que les visiteurs puissent retrouver toutes les plateformes au même endroit, sans se perdre entre plusieurs liens.",
+      "heading": "L’idée du grand projet",
+      "paragraphs": [
+        "Ce site n’est pas seulement une page qui regroupe quelques liens. C’est un hub central destiné à organiser les différentes plateformes de ressources éducatives créées aujourd’hui ou à l’avenir. Son objectif est de guider rapidement chaque étudiant vers l’espace qui lui correspond : un site pour le Bac, un site pour la Prépa Classique, puis d’autres plateformes si de nouveaux besoins apparaissent.",
+        "Pour chaque nouveau projet, le nom du site, sa description, son lien officiel, son dépôt GitHub et son propriétaire seront ajoutés dans un fichier JSON simple et bien structuré. Cette méthode permet de garder le travail propre, facile à maintenir et prêt à évoluer sans devoir modifier toute la structure du site.",
+        "Le véritable objectif est de rendre les ressources plus accessibles, plus claires et plus faciles à partager. Au lieu d’envoyer plusieurs liens séparés, il suffit de partager ce hub central. Le visiteur peut ensuite choisir la plateforme qui répond le mieux à son besoin. Le projet ne sert donc pas uniquement à collecter des liens, mais aussi à organiser l’accès aux ressources et à faire gagner du temps à ceux qui cherchent du contenu utile.",
+        "Ce hub peut grandir progressivement avec le temps. Si une nouvelle plateforme devient utile pour un autre niveau, une autre filière ou un autre type de ressources, elle pourra être ajoutée facilement ici. L’essentiel est de garder une interface propre, un accès direct et une mission claire : aider le maximum de personnes à trouver les bonnes ressources."
+      ],
+      "prayer": "Que Dieu bénisse ce travail, qu’Il le rende utile pour les étudiants et les visiteurs, qu’Il facilite à chacun le chemin du savoir, et qu’Il fasse de ces ressources une cause de bien, d’aide et de réussite pour tous."
+    },
+    "en": {
+      "label": "English",
+      "htmlLang": "en",
+      "direction": "ltr",
+      "eyebrow": "Educational resources project",
+      "title": "One central gateway to all our educational resource websites.",
+      "intro": "The idea is simple: whenever a new resource website is created, it will be added here so visitors can find every platform in one place without getting lost between many separate links.",
+      "heading": "The idea behind the bigger project",
+      "paragraphs": [
+        "This website is not just a page that gathers a few links. It is a central hub designed to organize the different educational resource platforms created now and in the future. Its goal is to guide every student quickly to the right place: one website for Bac students, one for Prépa Classique students, and more platforms later if new needs appear.",
+        "For every new project, the website name, description, official link, GitHub repository and owner will be added to a simple and well-structured JSON file. This keeps the work clean, easy to maintain and ready to grow without having to change the whole website structure.",
+        "The real goal is to make educational resources easier to access, clearer to understand and simpler to share. Instead of sending many scattered links, people can share this central hub. Visitors can then choose the platform that best matches their needs. So the project is not only about collecting links; it is also about organizing access to resources and saving time for anyone looking for useful content.",
+        "This hub can grow step by step over time. If a new platform becomes useful for another level, field or type of resource, it can easily be added here. What matters most is keeping the interface clean, the access direct and the mission clear: helping as many people as possible find the right resources."
+      ],
+      "prayer": "May God bless this work, make it useful for students and visitors, ease the path of knowledge for everyone, and make these resources a source of good, help and success for all."
+    }
+  }
+}

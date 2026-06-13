@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tous les sites de ressources créés, avec liens directs vers les plateformes et leurs dépôts GitHub." />
+  <meta name="theme-color" content="#000000" />
+  <title>Sites web | Resources Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="websites">
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigation principale">
+      <a class="brand" href="index.html" aria-label="Resources Hub">
+        <span class="brand-mark">RH</span>
+        <span class="brand-text">Resources Hub</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" data-nav="home">Accueil</a>
+        <a href="websites.html" data-nav="websites">Sites web</a>
+        <a href="about.html" data-nav="about">À propos</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Catalogue</p>
+        <h1>Sites web disponibles</h1>
+        <p>
+          Retrouvez ici toutes les plateformes de ressources déjà créées. Chaque carte contient le lien du site,
+          le dépôt GitHub, le propriétaire et une petite description pour savoir rapidement à quoi sert le projet.
+        </p>
+      </div>
+    </section>
+
+    <section class="section pt-0">
+      <div class="container">
+        <div class="toolbar single" id="websitesToolbar">
+          <label class="search-box" for="websiteSearch">
+            <span>Recherche</span>
+            <input id="websiteSearch" type="search" placeholder="Chercher par nom, description, propriétaire..." autocomplete="off" />
+          </label>
+        </div>
+
+        <div class="results-summary">
+          <span id="websiteCount">Chargement des sites...</span>
+          <button class="text-button" id="resetWebsiteSearch" type="button">Réinitialiser</button>
+        </div>
+
+        <div class="cards-grid" id="websitesGrid" aria-live="polite"></div>
+
+        <div class="empty-state hidden" id="websitesEmpty">
+          <h2>Aucun site trouvé</h2>
+          <p>Essayez avec un autre mot-clé.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Resources Hub.</p>
+      <p>Made with ❤️ by Amr Slama.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

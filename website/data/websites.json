@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bac-resources",
+    "name": "Bac Resources",
+    "description": "Site dédié aux étudiants du baccalauréat. Il regroupe des dossiers, fichiers, sites utiles, filtres de recherche et options de téléchargement pour accéder plus facilement aux ressources du Bac.",
+    "link": "https://resources-bac.netlify.app/",
+    "repo": "https://github.com/AmrDroid-git/bac-resources",
+    "owner": "Amr Slama + El mostahlek",
+    "category": "Baccalauréat",
+    "status": "Disponible"
+  },
+  {
+    "id": "prepa-resources",
+    "name": "Prépa Resources",
+    "description": "Site dédié aux étudiants de Prépa Classique. Il rassemble des ressources communautaires organisées : dossiers Google Drive, fichiers, liens utiles et options de téléchargement.",
+    "link": "https://prepa-resources.netlify.app/",
+    "repo": "https://github.com/AmrDroid-git/Prepa-classique-ressources",
+    "owner": "Amr Slama + El mostahlek",
+    "category": "Prépa Classique",
+    "status": "Disponible"
+  }
+]

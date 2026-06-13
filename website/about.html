@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="À propos du hub qui rassemble les sites de ressources éducatives créés pour les étudiants." />
+  <meta name="theme-color" content="#000000" />
+  <title>À propos | Resources Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="about">
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigation principale">
+      <a class="brand" href="index.html" aria-label="Resources Hub">
+        <span class="brand-mark">RH</span>
+        <span class="brand-text">Resources Hub</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" data-nav="home">Accueil</a>
+        <a href="websites.html" data-nav="websites">Sites web</a>
+        <a href="about.html" data-nav="about">À propos</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">À propos</p>
+        <h1>Un petit hub pour un grand objectif</h1>
+        <p>
+          Resources Hub a été créé pour regrouper les sites de ressources éducatives dans un seul endroit clair,
+          simple et facile à partager.
+        </p>
+      </div>
+    </section>
+
+    <section class="section pt-0">
+      <div class="container narrow">
+        <article class="content-card">
+          <h2>L’idée</h2>
+          <p>
+            Après la création de plusieurs sites de ressources, il devient important d’avoir une page centrale qui guide
+            les visiteurs vers le bon site. Ce hub évite la confusion : au lieu de partager plusieurs liens séparés,
+            il suffit de partager ce site puis chacun choisit la plateforme qui l’intéresse.
+          </p>
+
+          <h2>Comment les sites sont ajoutés ?</h2>
+          <p>
+            Les sites affichés dans la page <strong>Sites web</strong> sont stockés dans un fichier JSON. Chaque élément contient
+            le nom du projet, sa description, le lien officiel du site, le dépôt GitHub et le propriétaire. Cela permet
+            d’ajouter de futurs projets rapidement sans refaire toute la structure du site.
+          </p>
+
+          <h2>Objectif</h2>
+          <p>
+            L’objectif est de rendre les ressources plus accessibles, mieux organisées et plus faciles à partager avec
+            les étudiants. Le projet peut évoluer avec de nouvelles plateformes selon les besoins de la communauté.
+          </p>
+
+          <h2>Créateur</h2>
+          <p>
+            Les deux premiers sites listés dans ce hub ont été créés et maintenus par <strong>Amr Slama</strong>. Le hub garde
+            la même logique : une interface propre, des liens directs, une structure simple et un style classique.
+          </p>
+
+          <div class="signature-box">
+            <span>El Mostahlek Yestahlek</span>
+            <p>Un travail fait pour aider les étudiants à trouver les bonnes ressources plus vite.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Resources Hub.</p>
+      <p>Made with ❤️ by Amr Slama.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="منصة تجمع مواقع الموارد التعليمية التي تم إنشاؤها لتسهيل الوصول إليها من مكان واحد." />
+  <meta name="theme-color" content="#000000" />
+  <title>Accueil | Resources Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-page="home">
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigation principale">
+      <a class="brand" href="index.html" aria-label="Resources Hub">
+        <span class="brand-mark">RH</span>
+        <span class="brand-text">Resources Hub</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" data-nav="home">Accueil</a>
+        <a href="websites.html" data-nav="websites">Sites web</a>
+        <a href="about.html" data-nav="about">À propos</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" id="homeEyebrow">Projet de ressources éducatives</p>
+          <h1 id="homeTitle">Une seule porte d’entrée pour tous nos sites de ressources.</h1>
+          <p class="hero-text" id="homeIntro">
+            L’idée est simple : chaque fois qu’un nouveau site de ressources est créé, il sera ajouté ici pour éviter de
+            perdre les visiteurs entre plusieurs liens.
+          </p>
+          <div class="language-panel" aria-label="Choix de la langue">
+            <span class="language-label">Lire la description en :</span>
+            <div class="language-actions" id="languageActions">
+              <button class="lang-btn" type="button" data-lang="ar">العربية</button>
+              <button class="lang-btn active" type="button" data-lang="fr">Français</button>
+              <button class="lang-btn" type="button" data-lang="en">English</button>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="websites.html">Explorer les sites</a>
+            <a class="btn btn-secondary" href="about.html">Comprendre le projet</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Résumé du hub">
+          <div class="stat-card">
+            <span class="stat-number" id="homeWebsitesCount">--</span>
+            <span class="stat-label">Sites créés</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">1</span>
+            <span class="stat-label">Hub central</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Extensions futures</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section soft-section">
+      <div class="container narrow">
+        <article class="content-card home-description-card" id="homeDescriptionCard">
+          <div id="homeDescriptionContent">
+            <p>Chargement de la description...</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Vision</p>
+          <h2>Pourquoi ce hub existe ?</h2>
+        </div>
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-icon">🧭</div>
+            <h3>Orientation simple</h3>
+            <p>Un seul site pour guider les visiteurs vers les bonnes plateformes sans chercher partout.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">📚</div>
+            <h3>Projets organisés</h3>
+            <p>Chaque site garde son objectif, son lien officiel, son dépôt GitHub et une courte description.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🌱</div>
+            <h3>Prêt pour le futur</h3>
+            <p>Les nouveaux sites pourront être ajoutés facilement dans le fichier JSON sans changer toute la page.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta-card">
+        <div>
+          <p class="eyebrow">Accès rapide</p>
+          <h2>Voir tous les sites déjà disponibles</h2>
+          <p>La page des sites présente les plateformes créées avec une recherche rapide et des boutons directs vers le
+            site et le repo GitHub.</p>
+        </div>
+        <a class="btn btn-primary btn-large" href="websites.html">Aller aux sites</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Resources Hub.</p>
+      <p>Made with ❤️ by Amr Slama.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
