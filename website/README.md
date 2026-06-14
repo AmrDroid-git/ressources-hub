@@ -6,6 +6,7 @@ A simple static website that collects all created resource websites in one place
 
 - `index.html` — Home page with a long project description in Arabic, French and English.
 - `websites.html` — French page that lists all resource websites from `data/websites.json` with a search bar.
+- `share.html` — French page with a button to the Google Form for sharing new resources.
 - `about.html` — French about page.
 
 ## Data files

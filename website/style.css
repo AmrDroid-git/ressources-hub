@@ -775,6 +775,60 @@ h3 {
   margin-right: auto;
 }
 
+.share-home-section {
+  padding-top: 0;
+}
+
+.share-home-card {
+  background: var(--black);
+  color: var(--white);
+  border-color: var(--black);
+}
+
+.share-home-card h2,
+.share-home-card .eyebrow,
+.share-home-card p {
+  color: var(--white);
+}
+
+.share-home-card .eyebrow::before {
+  background: var(--white);
+}
+
+.share-home-card .btn-primary {
+  color: var(--black);
+  background: var(--white);
+  border-color: var(--white);
+}
+
+.share-form-card .eyebrow {
+  margin-bottom: 10px;
+}
+
+.form-highlight {
+  display: grid;
+  gap: 12px;
+  margin-top: 26px;
+  padding: 24px;
+  border: 1px solid var(--line-strong);
+  border-radius: 18px;
+  background: var(--surface-soft);
+}
+
+.form-highlight span {
+  color: var(--black);
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+.form-highlight p {
+  margin-bottom: 4px;
+}
+
+.form-highlight .btn {
+  width: fit-content;
+}
+
 .site-footer {
   margin-top: 20px;
   padding: 30px 0;
